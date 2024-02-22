@@ -27,14 +27,6 @@ export const useHeadTracking = ({ client, nodes, RPM }) => {
         // Head Lock
         if (RPM) {
           nodes.Head.lookAt(cameraWorldPosition);
-        } else {
-          nodes.CC_Base_L_Eye.rotation.x = 1.5;
-          nodes.CC_Base_L_Eye.rotation.y = 1.6;
-          nodes.CC_Base_L_Eye.rotation.z = 1.6;
-          nodes.CC_Base_R_Eye.rotation.x = 1.5;
-          nodes.CC_Base_R_Eye.rotation.y = 1.6;
-          nodes.CC_Base_R_Eye.rotation.z = 1.6;
-          nodes.CC_Base_Head.lookAt(cameraWorldPosition);
         }
       }
     } else if (!client?.isTalking && angelDegrees > 120 && angelDegrees < 260)
@@ -42,14 +34,6 @@ export const useHeadTracking = ({ client, nodes, RPM }) => {
         // Head Lock
         if (RPM) {
           nodes.Head.lookAt(cameraWorldPosition);
-        } else {
-          nodes.CC_Base_L_Eye.rotation.x = 1.5;
-          nodes.CC_Base_L_Eye.rotation.y = 1.6;
-          nodes.CC_Base_L_Eye.rotation.z = 1.6;
-          nodes.CC_Base_R_Eye.rotation.x = 1.5;
-          nodes.CC_Base_R_Eye.rotation.y = 1.6;
-          nodes.CC_Base_R_Eye.rotation.z = 1.6;
-          nodes.CC_Base_Head.lookAt(cameraWorldPosition);
         }
       }
   });
