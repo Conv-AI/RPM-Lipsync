@@ -10,7 +10,7 @@ Before running the project, follow these instructions:
 
 ### Prerequisites
 
-Make sure you have Node.js and npm installed on your machine.
+Make sure you have Node.js and npm installed on your machine. Also make sure the _Ready Player Me character has Morphs enabled._ Documentation Link : https://docs.readyplayer.me/ready-player-me/api-reference/rest-api/avatars/get-3d-avatars#examples-7
 
 ### Installation
 
