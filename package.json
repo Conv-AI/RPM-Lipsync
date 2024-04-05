@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.157.0",
     "axios": "^1.5.1",
-    "convai-web-sdk": "^0.1.0",
+    "convai-web-sdk": "^0.1.1",
     "google-protobuf": "^3.21.2",
     "leva": "^0.9.35",
     "lodash": "^4.17.21",
