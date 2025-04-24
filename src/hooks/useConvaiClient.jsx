@@ -42,7 +42,10 @@ export function useConvaiClient(characterId, apiKey) {
       // enableEmotionalData : true,
     });
 
-
+   convaiClient.current.setErrorCallback((type, message) => {
+      console.log(type, message);
+    })
+    
     convaiClient.current.setResponseCallback((response) => {
       if (response.hasUserQuery()) {
         var transcript = response.getUserQuery();
