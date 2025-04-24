@@ -52,6 +52,17 @@
     "serve-static": ">=1.16.0",
     "express": ">=4.20.0"
   },
+  "resolutions": {
+    "postcss": ">=8.4.31",
+    "**/postcss": ">=8.4.31",
+    "css-minimizer-webpack-plugin/postcss": ">=8.4.31",
+    "postcss-modules-local-by-default/postcss": ">=8.4.31",
+    "postcss-loader/postcss": ">=8.4.31",
+    "postcss-modules-local-by-default": ">=4.0.0",
+    "css-minimizer-webpack-plugin": ">=5.0.0",
+    "postcss-modules": ">=4.0.0",
+    "postcss-modules/postcss": ">=8.4.31"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
